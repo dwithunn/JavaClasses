@@ -12,6 +12,13 @@ public class Professions{
         tarctic.name = "Tarctic";
         tarctic.cookies = 5;
         tarctic.bakeCookie();
+        
+        //Maryam
+        Barista maryam = new Barista();
+        maryam.name = "Maryam";
+        maryam.coffee = 3;
+        maryam.serveCoffee();
+                               
 
 
 
@@ -47,7 +54,17 @@ class Baker{
 }
 
 
-
+// Maryam 
+class Barista{
+    String name;
+    int coffee;
+    
+    public void serveCoffee() {
+        coffee++;
+        System.out.println("Total coffee: "+coffee);
+    }
+}
+ 
 
 // ✨Type your class above this line✨
  
