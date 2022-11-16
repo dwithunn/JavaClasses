@@ -19,7 +19,11 @@ public class Professions{
         maryam.coffee = 3;
         maryam.serveCoffee();
                                
-
+        // Hannan
+        SalesExecutive hannan = New SalesExecutive();
+        hannan.name = "Hannan";
+        hannan.medicine = 8;
+        hannan.sellMedicine();
 
 
 
@@ -64,7 +68,17 @@ class Barista{
         System.out.println("Total coffee: "+coffee);
     }
 }
- 
+
+// Hannan
+class SalesExecutive{
+    String name;
+    int medicine;
+    
+    public void sellMedicine() {
+        medicine++;
+        System.out.println("Total medicine: "+medicine);
+    }       
+}
 
 // ✨Type your class above this line✨
  
