@@ -80,7 +80,17 @@ class SalesExecutive{
     }       
 }
 
-// ✨Type your class above this line✨
+// Dwithun
+class Chef{
+    String name;
+    int BestNoodlesintheWorld;
+    
+    public void MakeNoodles() {
+        MakeNoodles++;
+        System.out.println("TotalNoodlebowls: "+BestNoodlesintheWorld);
+    }
+    
+}
  
 
 
