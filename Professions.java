@@ -20,7 +20,7 @@ public class Professions{
         maryam.serveCoffee();
                                
         // Hannan
-        SalesExecutive hannan = New SalesExecutive();
+        SalesExecutive hannan = new SalesExecutive();
         hannan.name = "Hannan";
         hannan.medicine = 8;
         hannan.sellMedicine();
