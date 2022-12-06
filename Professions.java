@@ -24,6 +24,12 @@ public class Professions{
         hannan.name = "Hannan";
         hannan.medicine = 8;
         hannan.sellMedicine();
+       
+        // Dwithun
+        Chef dwithun = new Chef();
+        dwithun.name = "Dwithun";
+        dwithun.Noodles = 68;
+        dwithun.feedNoodles();
 
 
 
@@ -79,6 +85,20 @@ class SalesExecutive{
         System.out.println("Total medicine: "+medicine);
     }       
 }
+
+// Dwithun
+class Chef{
+    String name;
+
+    int Noodles;
+
+
+    public void feedNoodles() {
+        Noodles++;
+        System.out.println("Total Noodles: "+Noodles);
+    }
+}
+
 
 // ✨Type your class above this line✨
  
