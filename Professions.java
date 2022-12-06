@@ -89,13 +89,12 @@ class SalesExecutive{
 // Dwithun
 class Chef{
     String name;
-
-    int Noodles;
+    int noodles;
 
 
     public void feedNoodles() {
         Noodles++;
-        System.out.println("Total Noodles: "+Noodles);
+        System.out.println("Total Noodles: "+noodles);
     }
 }
 
